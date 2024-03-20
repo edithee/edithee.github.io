@@ -17,7 +17,19 @@ const App = () => {
 
     <>
       <div className='text-5xl'>App</div>
+      {/* </><p style={{ color: 'pink', fontSize: '24px' }}> */}
+      <p style={styles}>
+        Hellooo {name}
+      </p>
+      <p>
+        The sum of {x} and {y} is {x + y};
+      </p>
 
+      <ul>
+        {names.map((nn, index) => (
+          <li key={index}>{nn}</li>
+        ))}
+      </ul>
     </>
   );
 };
