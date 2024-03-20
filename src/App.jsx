@@ -1,8 +1,24 @@
 import React from 'react';
 
 const App = () => {
+
+  const name = 'bbml';
+  const x = 20;
+  const y = 20;
+  const names = ['bao bao', 'mala'];
+  const isLoggedIn = true;
+  const styles = {
+    color: 'blue',
+    fontSize: '55px'
+  };
+
   return (
-    <div>App</div>
+    //can only return 1 element, so if wanna ret multiple, wrap in an empty tag or div
+
+    <>
+      <div className='text-5xl'>App</div>
+
+    </>
   );
 };
 
