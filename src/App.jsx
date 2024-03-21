@@ -8,6 +8,8 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 
 import MainLayout from './layouts/MainLayout';
 import HomePage from './pages/HomePage';
+import JobsPage from './pages/JobsPage';
+import E404Page from './pages/E404Page';
 
 
 const router = createBrowserRouter(
@@ -15,6 +17,8 @@ const router = createBrowserRouter(
 
     <Route path='/' element={<MainLayout />}>
       <Route index element={<HomePage />} />
+      <Route path='/jobs' element={<JobsPage />} />
+      <Route path='*' element={<E404Page />} />
     </Route>
   )
 );
