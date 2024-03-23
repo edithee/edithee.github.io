@@ -21,7 +21,7 @@ const App = () => {
 
     // console.log(newJob);
 
-    const res = await fetch('api/jobs', {
+    const res = await fetch('/api/jobs', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -33,6 +33,12 @@ const App = () => {
 
   const deleteJob = async (id) => {
     console.log('delete', id);
+
+    const res = await fetch(`/api/jobs/${id}`, {
+      method: 'DELETE',
+    });
+    return;
+
   };
 
   const router = createBrowserRouter(

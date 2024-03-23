@@ -85,7 +85,7 @@
       }
     },
     {
-      "id": "9a27",
+      "id": "927",
       "title": "Test Jobby <3",
       "type": "Full-Time",
       "location": "asd",
@@ -94,20 +94,6 @@
       "company": {
         "name": "asd",
         "description": "this is fun",
-        "contactEmail": "cute@cue.com",
-        "contactPhone": "asd"
-      }
-    },
-    {
-      "id": "c882",
-      "title": "qweqwe",
-      "type": "Full-Time",
-      "location": "qwe",
-      "description": "wqeqwe",
-      "salary": "Under $50K",
-      "company": {
-        "name": "dasd",
-        "description": "qweqwe",
         "contactEmail": "cute@cue.com",
         "contactPhone": "asd"
       }
